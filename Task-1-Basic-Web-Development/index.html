@@ -1,0 +1,182 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="FoodLoopAI helps reduce food waste by connecting surplus food with people who can use it.">
+    <title>FoodLoopAI | Share Food, Spread Hope</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <!-- Navigation -->
+    <header class="header">
+        <nav class="navbar container">
+            <a href="#home" class="logo">
+                <span class="logo-icon">♻</span> FoodLoopAI
+            </a>
+
+            <button class="menu-toggle" id="menuToggle"
+                    aria-label="Toggle navigation" aria-expanded="false">
+                ☰
+            </button>
+
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#how-it-works">How It Works</a></li>
+                <li><a href="#impact">Our Impact</a></li>
+                <li><a href="#donations" class="nav-cta">Donate Food</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero section -->
+        <section class="hero container" id="home">
+            <div class="hero-content">
+                <span class="eyebrow">GOOD FOOD. BETTER FUTURE.</span>
+
+                <h1>Share Food.<br>
+                    <span>Spread Hope.</span>
+                </h1>
+
+                <p class="hero-description">
+                    Every meal deserves a purpose. Help reduce food waste
+                    by connecting surplus food with people and communities
+                    who need it.
+                </p>
+
+                <div class="hero-actions">
+                    <a href="#donations" class="button button-primary">
+                        Donate Food <span>→</span>
+                    </a>
+
+                    <a href="#how-it-works" class="button button-secondary">
+                        Explore More
+                    </a>
+                </div>
+
+                <div class="hero-note">
+                    <span class="status-dot"></span>
+                    Small actions. Meaningful impact.
+                </div>
+            </div>
+
+            <div class="hero-visual">
+                <img
+                    src="https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=1000&q=85"
+                    alt="A colorful, freshly prepared meal with vegetables"
+                    class="hero-image"
+                >
+
+                <div class="floating-card">
+                    <span class="floating-icon">♥</span>
+                    <div>
+                        <strong>Share a meal</strong>
+                        <p>Make a difference today</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Impact statistics -->
+        <section class="impact-section" id="impact">
+            <div class="container">
+                <div class="section-heading">
+                    <span class="eyebrow">WHY IT MATTERS</span>
+                    <h2>Every Meal Counts</h2>
+                    <p>
+                        Food sharing can help communities while reducing
+                        unnecessary food waste.
+                    </p>
+                </div>
+
+                <div class="impact-grid">
+                    <article class="impact-card">
+                        <span class="impact-icon">🍲</span>
+                        <h3>Reduce Waste</h3>
+                        <p>Give surplus food a useful second purpose.</p>
+                    </article>
+
+                    <article class="impact-card">
+                        <span class="impact-icon">🤝</span>
+                        <h3>Build Community</h3>
+                        <p>Connect donors with local organizations.</p>
+                    </article>
+
+                    <article class="impact-card">
+                        <span class="impact-icon">🌱</span>
+                        <h3>Support Sustainability</h3>
+                        <p>Encourage more responsible food consumption.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- How it works -->
+        <section class="how-section container" id="how-it-works">
+            <div class="section-heading">
+                <span class="eyebrow">SIMPLE STEPS</span>
+                <h2>How FoodLoopAI Works</h2>
+                <p>Making food sharing simple, one step at a time.</p>
+            </div>
+
+            <div class="steps-grid">
+                <article class="step-card">
+                    <span class="step-number">01</span>
+                    <h3>List Your Food</h3>
+                    <p>Describe your surplus food and pickup details.</p>
+                </article>
+
+                <article class="step-card">
+                    <span class="step-number">02</span>
+                    <h3>Connect Locally</h3>
+                    <p>Make your listing visible to potential recipients.</p>
+                </article>
+
+                <article class="step-card">
+                    <span class="step-number">03</span>
+                    <h3>Share Responsibly</h3>
+                    <p>Coordinate collection and reduce avoidable waste.</p>
+                </article>
+            </div>
+        </section>
+
+        <!-- Donation area: functionality comes next -->
+        <section class="donation-section" id="donations">
+            <div class="container donation-inner">
+                <div>
+                    <span class="eyebrow">BE PART OF THE CHANGE</span>
+                    <h2>Have Extra Food?</h2>
+                    <p>
+                        Your extra food could become someone's next meal.
+                        Take the first step toward sharing.
+                    </p>
+                </div>
+
+                <button class="button button-light" id="startDonation">
+                    Start Donating <span>→</span>
+                </button>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-inner">
+            <a href="#home" class="logo footer-logo">
+                <span class="logo-icon">♻</span> FoodLoopAI
+            </a>
+
+            <p>Share food, reduce waste, create a better tomorrow.</p>
+
+            <p class="copyright">
+                © <span id="currentYear">2026</span> FoodLoopAI.
+                Internship Project.
+            </p>
+        </div>
+    </footer>
+</body>
+</html>
